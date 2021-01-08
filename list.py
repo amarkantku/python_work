@@ -1,6 +1,6 @@
 ''' List is a ordered collection data type in python, it is dynamic and mutable in nature'''
 
-cars = ['suzuki', 'ford', 'maruti']
+cars = ['suzuki', 'ford', 'maruti', 'audi', 'auddi', 'toyota']
 print(cars);
 
 # append a new car in list
@@ -21,3 +21,6 @@ print(cars)
 cars.remove('ford')
 print(cars)
 
+#sort
+cars.sort();
+print(cars)
