@@ -1,12 +1,15 @@
 string  = "hello how are you".replace(" ", "")
+
 duplicate_char_map = dict()
 for char in string :
-	if (duplicate_char_map.get(char) == None):
+	if duplicate_char_map.get(char) == None:
 		duplicate_char_map[char] = 1
 	else:
-		duplicate_char_map[char] = duplicate_char_map[char] + 1  
+		duplicate_char_map[char] += 1  
 
 print(duplicate_char_map)
+
+
 
 print('------------------------')
 duplicate_char_map = dict()
